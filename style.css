@@ -7,8 +7,10 @@ body {
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh;
+min-height: 100vh;
 background-color: aliceblue;
+font-family: Arial, sans-serif;
+font-size: 16px;
 }
 .conteneur{
     border-radius: 10px;
@@ -34,7 +36,6 @@ button{
     border: none;
     position: relative;
     left: -1.2rem;
-    
 }
 
 
@@ -47,17 +48,24 @@ button{
 }
 .prix h3{
 margin-bottom: 15px;
+ 
 }
 .prix p{
     margin-bottom: 8px;
-
 }
+span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .bénefice{
     flex: 1;
     padding: 40px;
     background-color: #43d6c7;
     font-size: 16px;
     color: aliceblue;
+    
+
 }
 
 .pr-header{
@@ -76,6 +84,8 @@ margin-bottom: 15px;
 }
 .bénefice ul{
     margin-bottom: 8px;
+    list-style: none;
+    line-height: 1.5; 
 }
 button{
 
@@ -97,9 +107,6 @@ button:hover{
     
 
 }
-li{
-    list-style: none;
-}
 
 
 
@@ -108,6 +115,11 @@ li{
 .menu{ 
     display: flex;
     flex-direction: column;
-    margin: 15px;
+   }
+   .conteneur{
+    width: 95%;
    }
   }
+
+
+   
